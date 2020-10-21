@@ -1,0 +1,43 @@
+.img_profile{
+        border-radius: 50%;
+        border: 5px solid #AEB1B3
+}
+.about{
+        min-height: 300px;
+}
+#col_about{
+        border: 5px solid #CED0D2
+}
+#header{
+    position: relative;
+    transition: 2s;
+    background-image: url(../img/elvis-bekmanis-g9qwoPiS0nY-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    filter: brightness(80%);
+    margin-bottom: 80px;
+}
+.header_image{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transition: 1s;
+    transform: translate(-50%, -50%);
+    filter: brightness(100%);
+    
+}
+#header_name{
+    left: 0;
+    position:absolute;
+    text-align:center;
+    top: 64%;
+    width: 100%;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+        
+        
+    
+}
