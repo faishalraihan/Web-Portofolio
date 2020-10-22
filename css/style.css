@@ -1,3 +1,6 @@
+/* body{
+    background-color: black;
+} */
 .img_profile{
         border-radius: 50%;
         border: 5px solid #AEB1B3
@@ -6,7 +9,13 @@
         min-height: 300px;
 }
 #col_about{
-        border: 5px solid #CED0D2
+        border: 1px solid black
+}
+#about_text{
+    color: black;
+}
+#about_title{
+    color: black;
 }
 #header{
     position: relative;
@@ -37,7 +46,21 @@
     color: white;
     text-transform: uppercase;
     letter-spacing: 1.5px;
-        
-        
+}
+
+.speciality{
+    background-color:#CED0D2 ;
+}
+#speciality_title{
+    color: black;
+}
+
+#card_image{
+    height: 200px;
+    width: 180px;
     
+}
+#speciality_card{
+    /* background-color: white; */
+    /* border: 1px solid black; */
 }
